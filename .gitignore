@@ -1,0 +1,6 @@
+node_modules
+coverage
+.vscode
+keys.txt
+log.txt
+*.env.*

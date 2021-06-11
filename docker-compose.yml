@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    paceauxbot:
+      volumes:
+        - ./src:/app/src
+      env_file: 
+        - .env
+      ports:
+          - '8080:8000'
+      image: paceauxbot
